@@ -153,7 +153,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                       {item.title}
                     </h4>
 
-                    {/* DESCRIPTION */}
+
                     <p className="text-sm text-gray-600 leading-relaxed">
                       {item.description}
                     </p>
