@@ -29,9 +29,9 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* LEFT CONTENT */}
           <div>
-            <p className="text-sm uppercase tracking-widest text-teal-600 font-semibold mb-2">
+            {/* <p className="text-sm uppercase tracking-widest text-teal-600 font-semibold mb-2">
               About Us
-            </p>
+            </p> */}
 
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
               {data.title}
@@ -98,7 +98,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
         {data.features && (
           <div className="mt-16">
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
-             What You’ll Experience Here  
+              What You’ll Experience Here
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6">
@@ -108,28 +108,28 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                   className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition"
                 >
                   {/* TOP TEAL BORDER */}
-                  <div className="h-[6px] bg-[#0A8F96]" />
+                  <div className="h-[4px] bg-[#0A8F96]" />
 
                   {/* CONTENT */}
                   <div className="p-6 text-center">
                     {/* ICON */}
-                    <div className="mb-4 flex justify-center">
+                    <div className="m-4 flex justify-center">
                       {index === 0 && (
                         <img
-                          src="/img/classes/1.jpg"
-                          className="h-16 object-contain"
+                          src="/img/experience/ai.png"
+                          className="h-65  object-contain"
                         />
                       )}
                       {index === 1 && (
                         <img
-                          src="/img/classes/2.jpg"
-                          className="h-16 object-contain"
+                          src="/img/experience/mentorship.png"
+                          className="h-40 object-contain"
                         />
                       )}
                       {index === 2 && (
                         <img
-                          src="/img/classes/3.jpg"
-                          className="h-16 object-contain"
+                          src="/img/experience/partnerships.png"
+                          className="h-40 object-contain"
                         />
                         // <div className="flex items-center gap-3">
                         //   <img
@@ -148,7 +148,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                       )}
                     </div>
 
-                    {/* TITLE */}
+
                     <h4 className="font-semibold text-[#1e3a5f] mb-2">
                       {item.title}
                     </h4>

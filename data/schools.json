@@ -29,30 +29,27 @@
 
         "hexagons": [
           {
-            "type": "text",
-            "text": "Cloud Computing",
-            "icon": "/icons/cloud.svg",
+           
+           "type": "image",
+            "image": "/img/classes/1.jpg",
             "top": "0%",
             "left": "35%"
           },
           {
-            "type": "text",
-            "text": "Newest Research",
-            "icon": "/icons/research.svg",
+            "type": "image",
+            "image": "/img/classes/1.jpg",
             "top": "20%",
             "left": "70%"
           },
           {
-            "type": "text",
-            "text": "Industry Mentorship",
-            "icon": "/icons/mentorship.svg",
+            "type": "image",
+            "image": "/img/classes/1.jpg",
             "top": "55%",
             "left": "70%"
           },
           {
-            "type": "text",
-            "text": "Research Ecosystem",
-            "icon": "/icons/system.svg",
+            "type": "image",
+            "image": "/img/classes/1.jpg",
             "top": "75%",
             "left": "37%"
           },
